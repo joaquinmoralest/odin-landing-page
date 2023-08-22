@@ -12,7 +12,7 @@
 
 html, body {
   font-size: 16px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -86,7 +86,7 @@ img {
 
 .hero-main p {
   font-size: 18px;
-  font-weight: lighter;
+  font-weight: 300;
   margin-top: 0;
   color: var(--background-secondary);
 }
@@ -99,4 +99,50 @@ img {
   font-weight: 600;
   padding: 8px 30px;
   border-radius: 10px;
+}
+
+.section-info {
+  text-align: center;
+  padding: 50px;
+  color: var(--color-secondary);
+  font-size: 24px;
+}
+
+.block-list {
+  display: flex;
+  gap: 40px;
+  padding: 50px 0;
+}
+
+.block-list .block-item p {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.block-img {
+  border: 4px solid var(--accent-color);
+  border-radius: 10px;
+  height: 150px;
+}
+
+.section-quote {
+  background-color: var(--background-secondary);
+}
+
+.section-quote .container {
+  padding: 80px 0;
+}
+
+.section-quote article {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--color-secondary);
+}
+
+.section-quote .author {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  text-align: right;
 }
